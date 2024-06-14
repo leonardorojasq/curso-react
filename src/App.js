@@ -1,14 +1,23 @@
-import './App.css';
-import { Usuario } from './componentes/Usuario';
+
+import { Usuario } from './componentes/Usuario/Usuario';
+import { Card } from './componentes/Card/Card';
+
 
 function App() {
 
-  const nombre='Leonardo'
+  const nombre = 'Leonardo'
 
   return (
-      <div>
-        <Usuario />
-      </div>
+    <div>
+      <Usuario
+        nombre='Leonardo'
+        edad={50}
+        nacionalidad='Colombia'
+      />
+
+    <Card />
+
+    </div>
   );
 }
 
