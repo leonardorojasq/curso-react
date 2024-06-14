@@ -6,7 +6,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-         Curso Intensivo 2025
+         Curso Intensivo 2024
         </p>
         <a
           className="App-link"
@@ -14,7 +14,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Curso de reactjs 2025
+          Curso de reactjs 2024
         </a>
       </header>
     </div>
